@@ -6,5 +6,6 @@
     function phishing() {
         location.replace("http://adamziaja.com");
     }
+    
     setTimeout("phishing();", 5000)
 </script>
