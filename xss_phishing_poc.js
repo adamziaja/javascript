@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
     // XSS phishing PoC
     // (C) 2014 Adam Ziaja <adam@adamziaja.com> http://adamziaja.com
 
